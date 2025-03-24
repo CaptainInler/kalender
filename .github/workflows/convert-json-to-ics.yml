@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - events.json  # Only trigger when the events.json file changes
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   convert-json-to-ics:
