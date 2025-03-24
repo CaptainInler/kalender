@@ -14,5 +14,13 @@
     "summary": "Second Event",
     "description": "This is a description of the second event.",
     "location": "Offline"
+  },
+  {
+    "uid": "20250324T130000Z-5778@example.com",
+    "dtstart": "20250328T100000Z",
+    "dtend": "20250328T110000Z",
+    "summary": "Dritti Event",
+    "description": "blablabla",
+    "location": "VVR"
   }
 ]
