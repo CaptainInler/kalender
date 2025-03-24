@@ -14,7 +14,7 @@ for event_data in events_data:
     event.uid = event_data["uid"]
     event.begin = event_data["dtstart"]
     event.end = event_data["dtend"]
-    event.summary = event_data["summary"]
+    event.name = event_data["summary"]
     event.description = event_data["description"]
     event.location = event_data["location"]
     
