@@ -5,11 +5,11 @@ on:
     branches:
       - main
     paths:
-      - events.json  # Only trigger when the events.json file changes
+      - events.csv  # Only trigger when the events.csv file changes
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  convert-json-to-ics:
+  convert-csv-to-ics:
     runs-on: ubuntu-latest
 
     steps:
