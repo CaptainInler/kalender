@@ -1,4 +1,4 @@
 uid,dtstart,dtend,summary,description,location
-20250324T120000Z-1234@example.com,20250826T150000Z,20250826T160000Z,First Event,This is a description of the first event.,Online
-20250324T130000Z-5678@example.com,20250827T100000Z,20250827T110000Z,Second Event,This is a description of the second event.,Offline
-20250324T130000Z-5778@example.com,20250828T100000Z,20250828T110000Z,Dritti Event,blablabla,VVR
+250826-16,20250826T150000Z,20250826T160000Z,First Event,This is a description of the first event.,Online
+250827-11,20250827T100000Z,20250827T110000Z,Second Event,This is a description of the second event.,Offline
+250828-11,20250828T100000Z,20250828T110000Z,Dritti Event,blablabla,VVR
