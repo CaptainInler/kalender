@@ -1,5 +1,6 @@
 import csv
 from ics import Calendar, Event
+from ics.parse import ContentLine
 from datetime import datetime
 
 # Function to parse datetime strings (adjust format as needed)
@@ -9,7 +10,7 @@ def parse_datetime(dt_str):
 
 # Create a new calendar
 calendar = Calendar()
-calendar.extra['NAME'] == "My Calendar"
+calendar.extra == [ContentLine(name="FOO", value="BAR")]
 
 # Load data from CSV
 with open("events.csv", newline='', encoding='utf-8') as csvfile:
