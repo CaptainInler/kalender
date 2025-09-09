@@ -1,6 +1,6 @@
 import csv
 from ics import Calendar, Event
-from ics.contentline import Container
+from ics.parse import Container
 from datetime import datetime
 
 # Function to parse datetime strings (adjust format as needed)
