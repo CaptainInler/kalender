@@ -9,7 +9,7 @@ def parse_datetime(dt_str):
 
 # Create a new calendar
 calendar = Calendar()
-calendar.name == "My Calendar"
+calendar.extra['NAME'] == "My Calendar"
 
 # Load data from CSV
 with open("events.csv", newline='', encoding='utf-8') as csvfile:
